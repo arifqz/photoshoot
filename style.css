@@ -1,0 +1,82 @@
+body {
+ background-color: black;
+  
+ }
+
+svg.headshot {
+position: absolute !important;
+top: 0;
+left:2%;
+transform:scale(.8);
+}
+ .squigglyanimation {
+
+ 	 animation: squiggly-anim 0.34s linear infinite;
+  filter: url("#squiggly-0");
+ }
+@keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+  5% {
+    filter: url("#squiggly-1");
+  }
+  10% {
+    filter: url("#squiggly-2");
+  }
+  15% {
+    filter: url("#squiggly-3");
+  }
+  20% {
+    filter: url("#squiggly-4");
+  }
+  25% {
+    filter: url("#squiggly-5");
+  }
+  30% {
+    filter: url("#squiggly-6");
+  }
+  35% {
+    filter: url("#squiggly-7");
+  }
+  40% {
+    filter: url("#squiggly-8");
+  }
+  45% {
+    filter: url("#squiggly-9");
+  }
+  50% {
+    filter: url("#squiggly-10");
+  }
+  55% {
+    filter: url("#squiggly-11");
+  }
+  60% {
+    filter: url("#squiggly-12");
+  }
+  65% {
+    filter: url("#squiggly-13");
+  }
+  70% {
+    filter: url("#squiggly-14");
+  }
+  75% {
+    filter: url("#squiggly-15");
+  }
+  80% {
+    filter: url("#squiggly-16");
+  }
+  85% {
+    filter: url("#squiggly-17");
+  }
+  90% {
+    filter: url("#squiggly-18");
+  }
+  95% {
+    filter: url("#squiggly-19");
+  }
+  100% {
+    filter: url("#squiggly-20");
+  }
+
+}
